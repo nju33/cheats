@@ -1,0 +1,29 @@
+% yarn, init, vscode
+# init yarn for VSCode
+yarn dlx @yarnpkg/pnpify --sdk vscode
+
+% yarn, create, prettier, config
+# init for Prettier
+yarn create @nju33/.prettierrc.js
+
+% yarn, create, eslint, config
+# init for ESLint
+yarn create @nju33/.eslintrc.js
+
+% yarn, create, commtlint, config
+# init for commitlint
+yarn create @nju33/.commitlintrc.js
+
+% yarn, create, husky, config
+# init for husky
+yarn create @nju33/.huskyrc && npm set-script prepare "husky install"
+
+% yarn, create, lint-staged, config
+# init for lint-staged
+yarn create @nju33/.lintstagedrc
+
+% yarn, import, plugin
+# import a yarn plugin
+yarn plugin import <plugin_name>
+
+$ plugin_name: printf 'constraints\nexec\ninteractive-tools\nstage\ntypescript\nversion\nworkspace-tools'
