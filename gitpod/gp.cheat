@@ -1,0 +1,3 @@
+% gitpod, gp, env, vars
+# export all of my Gitpod's environemnt variables
+eval $(gp env -e)
