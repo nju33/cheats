@@ -1,0 +1,3 @@
+% ssh-keygen
+# create a ssh key
+ssh-keygen -f <file_name> -N '' -t rsa -b 4096 -m PEM -C ''
