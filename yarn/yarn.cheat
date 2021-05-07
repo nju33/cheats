@@ -1,3 +1,7 @@
+% yarn, init, berry
+# init for the yarn@berry
+yarn set version berry
+
 % yarn, init, vscode
 # init yarn for VSCode
 yarn dlx @yarnpkg/pnpify --sdk vscode
