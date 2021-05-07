@@ -31,3 +31,7 @@ yarn create @nju33/.lintstagedrc
 yarn plugin import <plugin_name>
 
 $ plugin_name: printf 'constraints\nexec\ninteractive-tools\nstage\ntypescript\nversion\nworkspace-tools'
+
+% yarn, add, postcss
+# install postcss and its around pacakges
+yarn add -D postcss autoprefixer postcss-flexbugs-fixes tailwindcss
