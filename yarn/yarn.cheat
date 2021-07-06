@@ -20,7 +20,7 @@ yarn create @nju33/.commitlintrc.js
 
 % yarn, create, husky, config
 # init for husky
-yarn create @nju33/.huskyrc && npm set-script prepare "husky install"
+yarn add -D husky pinst && npm set-script postinstall 'husky install' && npm set-script prepublishOnly 'pinst --disable' && npm set-script postpublish 'pinst --enable' && yarn run husky add .husky/pre-commit 'yarn run lint-staged' && yarn run husky add .husky/commit-msg 'yarn run commitlint --edit "$1"'
 
 % yarn, create, lint-staged, config
 # init for lint-staged
