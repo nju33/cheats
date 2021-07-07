@@ -1,0 +1,5 @@
+% plantuml, server
+# launch local plantuml server
+docker run -d -p <port>:8080 plantuml/plantuml-server:jetty
+
+$ port: printf '8080'
