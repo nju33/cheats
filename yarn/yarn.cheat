@@ -4,7 +4,7 @@ yarn set version berry
 
 % yarn, init, vscode
 # init yarn for VSCode
-yarn dlx @yarnpkg/pnpify --sdk vscode
+yarn dlx @yarnpkg/sdks vscode
 
 % yarn, create, prettier, config
 # init for Prettier
