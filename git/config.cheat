@@ -1,0 +1,7 @@
+% git, global, config, core, editor
+# Set global core.editor to vim
+git config --global core.editor 'vim -c "set fenc=utf-8"'
+
+% git, local, config, core, editor
+# Set local core.editor to vim
+git config --local core.editor 'vim -c "set fenc=utf-8"'
