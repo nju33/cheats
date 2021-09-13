@@ -1,0 +1,3 @@
+% next.js, telemetry, opt-out
+# disable next.js telemetry
+yarn dlx next telemetry disable
